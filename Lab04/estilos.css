@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    background-color: #b93232;
+    color: white;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+/* id # */
+#menu {
+    background-color: #fcf7f7;
+    padding: 25px;
+    text-align: center;
+    
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* class . */
+.item {
+    display: inline-block;
+    background-color: #24aa94;
+    margin-right: 10px;
+    padding: 5px 20px;
+    border-radius: 5px;
+
+}
+
+.item a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form-actions {
+    margin-top: 20px;
+    text-align: center;
+}
+
+input:focus {
+    border-color: #bf20ce;
+    color: #24aa94;
+}
+
+button {
+    background-color: #24aa94;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #d4e210;
+}
+
+#video-section {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* Margen o espacio encima del video*/
+}
+
+#video-section iframe {
+  width: 100%;
+  max-width: 600px;
+  /* Ancho máximo del video */
+  height: auto;
+  border-radius: 10px;
+  border: 3px solid #727272;
+  /* Borde alrededor del video */
+}
